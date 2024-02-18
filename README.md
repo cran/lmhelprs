@@ -1,14 +1,16 @@
 <!-- badges: start -->
 [![Lifecycle: stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://lifecycle.r-lib.org/articles/stages.html#stable)
 [![Project Status: Active - The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
+[![CRAN status](https://www.r-pkg.org/badges/version/lmhelprs?color=blue)](https://CRAN.R-project.org/package=lmhelprs)
+[![CRAN: Release Date](https://www.r-pkg.org/badges/last-release/lmhelprs?color=blue)](https://cran.r-project.org/package=lmhelprs)
 [![Code size](https://img.shields.io/github/languages/code-size/sfcheung/lmhelprs.svg)](https://github.com/sfcheung/lmhelprs)
 [![Last Commit at Main](https://img.shields.io/github/last-commit/sfcheung/lmhelprs.svg)](https://github.com/sfcheung/lmhelprs/commits/main)
 [![R-CMD-check](https://github.com/sfcheung/lmhelprs/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/sfcheung/lmhelprs/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
-(Version 0.2.0, updated on 2023-10-29, [release history](https://sfcheung.github.io/lmhelprs/news/index.html))
+# lmhelprs: A collection of helper functions for some common tasks in fitting linear models, mainly by `lm()` <img src="man/figures/logo.png" align="right" />
 
-# lmhelprs: A collection of helper functions for some common tasks in fitting linear models, mainly by `lm()`.
+(Version 0.3.0, updated on 2024-02-18, [release history](https://sfcheung.github.io/lmhelprs/news/index.html))
 
 A collection of helper functions for
 multiple regression models fitted by `lm()`.
@@ -22,9 +24,11 @@ https://sfcheung.github.io/lmhelprs/
 
 # Installation
 
-Stable release versions of this package can be downloaded below:
+The stable CRAN version can be installed by `install.packages()`:
 
-https://github.com/sfcheung/lmhelprs/releases
+```r
+install.packages("lmhelprs")
+```
 
 The latest developmental version of this package can be installed by `remotes::install_github`:
 

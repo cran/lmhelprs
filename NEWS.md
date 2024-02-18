@@ -1,3 +1,17 @@
+# lmhelprs 0.3.0
+
+## New Features
+
+- Added `many_lm()`. (0.2.0.2, 0.2.0.3)
+- Added internal checks to `hierarchical_lm()`
+  to check whether any two models are
+  not fitted to an identical dataset.
+  (0.2.0.4)
+
+## Miscellaneous
+
+- Added a logo. (0.2.0.5)
+
 # lmhelprs 0.2.0
 
 - Added `data_test1`, a test dataset. (0.0.0.9002)
