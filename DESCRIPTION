@@ -1,6 +1,6 @@
 Package: lmhelprs
 Title: Helper Functions for Linear Model Analysis
-Version: 0.4.0
+Version: 0.4.3
 Authors@R: 
     c(person(given = "Shu Fai",
              family = "Cheung",
@@ -28,8 +28,9 @@ Depends: R (>= 2.10)
 LazyData: true
 Imports: stats
 NeedsCompilation: no
-Packaged: 2024-10-15 13:12:08 UTC; shufa
-Author: Shu Fai Cheung [aut, cre] (<https://orcid.org/0000-0002-9871-9448>)
+Packaged: 2025-05-03 18:36:59 UTC; shufa
+Author: Shu Fai Cheung [aut, cre] (ORCID:
+    <https://orcid.org/0000-0002-9871-9448>)
 Maintainer: Shu Fai Cheung <shufai.cheung@gmail.com>
 Repository: CRAN
-Date/Publication: 2024-10-15 15:30:02 UTC
+Date/Publication: 2025-05-04 04:30:02 UTC

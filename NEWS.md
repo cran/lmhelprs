@@ -1,3 +1,20 @@
+# lmhelprs 0.4.3
+
+## New Features
+
+- Users can request confidence
+  intervals when using
+  `lm_list_to_partable()`. (0.4.2)
+
+- Updated `hierarchical_lm()` to support
+  the output of `many_lm()`. (0.4.3)
+
+## Bug Fixes
+
+- Fixed an error in `lm_list_to_partable()`
+  when a model has only one exogenous
+  variables. (0.4.1)
+
 # lmhelprs 0.4.0
 
 ## New Features
