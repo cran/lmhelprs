@@ -393,7 +393,8 @@ raised:</p>
 <div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" tabindex="-1"></a>lm2a <span class="ot">&lt;-</span> <span class="fu">lm</span>(y <span class="sc">~</span> x1 <span class="sc">+</span> x2, data_test1)</span>
 <span id="cb3-2"><a href="#cb3-2" tabindex="-1"></a>lm2b <span class="ot">&lt;-</span> <span class="fu">lm</span>(y <span class="sc">~</span> x1 <span class="sc">+</span> x3 <span class="sc">+</span> x4, data_test1)</span>
 <span id="cb3-3"><a href="#cb3-3" tabindex="-1"></a><span class="fu">hierarchical_lm</span>(lm2a, lm2b)</span>
-<span id="cb3-4"><a href="#cb3-4" tabindex="-1"></a><span class="co">#&gt; Error in hierarchical_lm(lm2a, lm2b): The models do not have hierarchical relations.</span></span></code></pre></div>
+<span id="cb3-4"><a href="#cb3-4" tabindex="-1"></a><span class="co">#&gt; Error in `hierarchical_lm()`:</span></span>
+<span id="cb3-5"><a href="#cb3-5" tabindex="-1"></a><span class="co">#&gt; ! The models do not have hierarchical relations.</span></span></code></pre></div>
 <p>Please refer to the help page of <code>hierarchical_lm()</code> on
 how it works, and the print method of its output
 (<code>print.hierarchical_lm()</code>) on how to customize the
@@ -507,7 +508,8 @@ two-way interactions (<code>x3:x4</code>, <code>x3:cat2</code>, and
 be raised:</p>
 <div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" tabindex="-1"></a>lm_mod2 <span class="ot">&lt;-</span> <span class="fu">lm</span>(y <span class="sc">~</span> x1 <span class="sc">+</span> x2<span class="sc">*</span>x3 <span class="sc">+</span> x2<span class="sc">*</span>x4, data_test1)</span>
 <span id="cb7-2"><a href="#cb7-2" tabindex="-1"></a><span class="fu">test_highest</span>(lm_mod2)</span>
-<span id="cb7-3"><a href="#cb7-3" tabindex="-1"></a><span class="co">#&gt; Error in highest_order(lm_out): No unique highest order term.</span></span></code></pre></div>
+<span id="cb7-3"><a href="#cb7-3" tabindex="-1"></a><span class="co">#&gt; Error in `highest_order()`:</span></span>
+<span id="cb7-4"><a href="#cb7-4" tabindex="-1"></a><span class="co">#&gt; ! No unique highest order term.</span></span></code></pre></div>
 <p>Please refer to the help page of <code>test_highest()</code> on how
 it works,</p>
 </div>
